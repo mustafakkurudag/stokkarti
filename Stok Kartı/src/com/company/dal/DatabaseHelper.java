@@ -1,4 +1,4 @@
-package com.company.guru.dal;
+package com.company.dal;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.company.guru.entity.StockCard;
+import com.company.entity.StockCard;
 
 public class DatabaseHelper {
 	private String username = "root";

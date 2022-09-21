@@ -1,4 +1,4 @@
-package com.company.guru.entity;
+package com.company.entity;
 
 public class StockCard {
 	private String stockCode;

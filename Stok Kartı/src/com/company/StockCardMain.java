@@ -1,4 +1,4 @@
-package com.company.guru;
+package com.company;
 
 import java.awt.EventQueue;
 
@@ -7,9 +7,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import com.company.guru.dal.DatabaseHelper;
-import com.company.guru.entity.StockCard;
-
 import javax.swing.JOptionPane;
 
 import java.awt.Color;
@@ -21,6 +18,9 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
+
+import com.company.dal.DatabaseHelper;
+import com.company.entity.StockCard;
 
 import java.awt.Font;
 import javax.swing.JTextField;
